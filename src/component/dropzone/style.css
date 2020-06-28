@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #34CB79;
+  --paragrapth-color: #322153;
+  --back-color: #6C6C80;
+}
+
+.dropzone{
+   width: 80%;
+    margin:30px 0;
+    
+    background-color: var(--back-color);
+    border:2px solid var(-primary-color);
+    border-radius: 15px;
+}
+
+.dropzone p{
+   color:var( --paragrapth-color);
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.dropzone .drop{
+  color:var(-primary-color);
+}
+
+.dropzone img{
+  width:100%;
+  
+}
+.dropzone .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropzone .content div{
+  padding:100px;
+  width: 100%;
+  display:block;
+}
+.dropzone .content div div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropzone .content div div svg{
+   width:60px;
+   height: 60px;
+   color:var(--primary-color) ;
+}
